@@ -4,7 +4,7 @@
 #include<unistd.h>
 #include<errno.h>
 
-#define MEM_SEG 4096
+constexpr ssize_t MEM_SEG = 4096;
 int main(int argc, char *argv[]){
     
     if(argc != 2){
